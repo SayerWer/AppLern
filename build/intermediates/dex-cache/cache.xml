@@ -12,7 +12,7 @@
         jar="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="24.0.1"
-        sha1="5280a21459e05c6f7bab537631b32b278d093859">
+        sha1="6e9b1e686b187a3d3c0e8f6d12936c9e88c9ce51">
         <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4e6b19d61a8825a7ccce30e9d621eba552e1f861\classes.dex" />
     </item>
     <item
@@ -23,18 +23,18 @@
         <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_be0664ed0eb20eae2082f4be1d93111fb0a50c68\classes.dex" />
     </item>
     <item
-        jar="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="24.0.1"
-        sha1="06fcfcc4435507afec769246c6a2a318c629e69f">
-        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9b47143b68d6fdec6f1df7776f0840c9c03c98fe\classes.dex" />
-    </item>
-    <item
         jar="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
         jumboMode="true"
         revision="24.0.1"
         sha1="f62e763609f65e47dc6c498760a4accf02776788">
         <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_61b7517743ffe851e4d62a6fe471d658321d9af7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="49dc848913708cbb25324bb8b4c56e4408e76ff1">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9b47143b68d6fdec6f1df7776f0840c9c03c98fe\classes.dex" />
     </item>
     <item
         jar="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
