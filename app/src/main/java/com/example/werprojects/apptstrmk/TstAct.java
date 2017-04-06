@@ -34,19 +34,22 @@ public class TstAct extends AppCompatActivity {
 
                     @Override
                     public void onClick(View view) {
+                        mSwitcher.setCurrentText("Test");
                         t= System.currentTimeMillis();
+                        qA();
                     }
                 })
 
 
         );
+
     }
     private boolean h=false;
     public void qA(){
-
-        while(System.currentTimeMillis()<t+1000){
-            Button br = (Button) findViewById(R.id.RB);
-            br.setOnClickListener((new View.OnClickListener() {
+        
+        while(System.currentTimeMillis()<t+10000){
+            Button brk = (Button) findViewById(R.id.RB);
+            brk.setOnClickListener((new View.OnClickListener() {
 
                         @Override
                         public void onClick(View view) {
@@ -56,7 +59,7 @@ public class TstAct extends AppCompatActivity {
 
             );
             Button b1 = (Button) findViewById(R.id.b1);
-            br.setOnClickListener((new View.OnClickListener() {
+            b1.setOnClickListener((new View.OnClickListener() {
 
                         @Override
                         public void onClick(View view) {
@@ -65,7 +68,7 @@ public class TstAct extends AppCompatActivity {
                     })
             );
             Button b2 = (Button) findViewById(R.id.b2);
-            br.setOnClickListener((new View.OnClickListener() {
+            b2.setOnClickListener((new View.OnClickListener() {
 
                         @Override
                         public void onClick(View view) {
@@ -74,7 +77,7 @@ public class TstAct extends AppCompatActivity {
                     })
             );
             Button b3 = (Button) findViewById(R.id.b3);
-            br.setOnClickListener((new View.OnClickListener() {
+            b3.setOnClickListener((new View.OnClickListener() {
 
                         @Override
                         public void onClick(View view) {
@@ -83,7 +86,7 @@ public class TstAct extends AppCompatActivity {
                     })
             );
             Button b4 = (Button) findViewById(R.id.b4);
-            br.setOnClickListener((new View.OnClickListener() {
+            b4.setOnClickListener((new View.OnClickListener() {
 
                         @Override
                         public void onClick(View view) {

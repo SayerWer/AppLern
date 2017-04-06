@@ -16,12 +16,12 @@
         "source": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
