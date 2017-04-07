@@ -8,12 +8,12 @@
         "source": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
-        "merged": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color-v23\\abc_tint_seek_thumb.xml"
-    },
-    {
         "merged": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
         "source": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "C:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",

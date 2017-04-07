@@ -1,5 +1,6 @@
 package com.example.werprojects.apptstrmk;
 
+import android.os.CountDownTimer;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,13 +27,14 @@ public class TstAct extends AppCompatActivity {
     private Button b2;
     private Button b3;
     private Button b4;
-    private mt
     private long t;
+    private boolean cc=false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tst);
+
         t=System.currentTimeMillis();
         mSwitcher=(TextSwitcher) findViewById(R.id.switcher);
         brk  = (Button) findViewById(R.id.RB);
@@ -41,69 +43,53 @@ public class TstAct extends AppCompatActivity {
         b3= (Button) findViewById(R.id.b3);
         b4= (Button) findViewById(R.id.b4);
         mSwitcher.setFactory(mFactory);
-        //mSwitcher.setCurrentText(String.valueOf(mCounter));
         mSwitcher.setCurrentText("Test");
 
         b1.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if(System.currentTimeMillis()<t+10000){
-
+                    cc=true;
                 }
             }
-        }
+        }));
+        b2.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(System.currentTimeMillis()<t+10000){
+                    cc=true;
+                }
+            }
+        }));
+        b3.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(System.currentTimeMillis()<t+10000){
+                    cc=true;
+                }
+            }
+        }));
+        b4.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(System.currentTimeMillis()<t+10000){
+                    cc=true;
+                }
+            }
+        }));
+        new CountDownTimer(30000, 1000) {
 
+            public void onTick(long millisUntilFinished) {
 
-        ));
+            }
 
-
-
-        //Button br = (Button) findViewById(R.id.RB);
-        /*br.setOnClickListener((new View.OnClickListener() {
-
-                    @Override
-                    public void onClick(View view) {
-                        Thread thread = new Thread(new CodeRunner(brk,b1,b2,b3,b4,mSwitcher,t));
-                        thread.start();
-                        mSwitcher.setCurrentText("tester");
-
-                        try {
-                            Thread.sleep(1000);                 //1000 milliseconds is one second.
-                        } catch(InterruptedException ex) {
-                            Thread.currentThread().interrupt();
-                        }
-                        try {
-                            thread.join();
-                            //boolean b=thread.getVal();
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
-
-                        //mSwitcher.setCurrentText("Test");
-                        //t= System.currentTimeMillis();
-                        //qA();
-                    }
-                })
-
-
-        );
-        /*
-        }
-         */
+            public void onFinish() {
+                if(cc){
+                    mSwitcher.setCurrentText("Winner");
+                }else{mSwitcher.setCurrentText("Fail");}
+            }
+        }.start();
     }
-
-
-    public void qA(){
-
-        //System.currentTimeMillis()<t+10000
-
-
-
-
-
-
-    }
-
 
     private ViewSwitcher.ViewFactory mFactory = new ViewSwitcher.ViewFactory() {
 
