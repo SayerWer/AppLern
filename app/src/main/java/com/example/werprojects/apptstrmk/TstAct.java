@@ -17,89 +17,91 @@ import android.widget.TextView;
 import android.widget.ViewSwitcher;
 
 public class TstAct extends AppCompatActivity {
+
+
+
     private TextSwitcher mSwitcher;
-    private Long t;
+    private Button brk;
+    private Button b1;
+    private Button b2;
+    private Button b3;
+    private Button b4;
+    private mt
+    private long t;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tst);
-
-        mSwitcher = (TextSwitcher) findViewById(R.id.switcher);
+        t=System.currentTimeMillis();
+        mSwitcher=(TextSwitcher) findViewById(R.id.switcher);
+        brk  = (Button) findViewById(R.id.RB);
+        b1= (Button) findViewById(R.id.b1);
+        b2 = (Button) findViewById(R.id.b2);
+        b3= (Button) findViewById(R.id.b3);
+        b4= (Button) findViewById(R.id.b4);
         mSwitcher.setFactory(mFactory);
         //mSwitcher.setCurrentText(String.valueOf(mCounter));
         mSwitcher.setCurrentText("Test");
-        Button br = (Button) findViewById(R.id.RB);
-        br.setOnClickListener((new View.OnClickListener() {
+
+        b1.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(System.currentTimeMillis()<t+10000){
+
+                }
+            }
+        }
+
+
+        ));
+
+
+
+        //Button br = (Button) findViewById(R.id.RB);
+        /*br.setOnClickListener((new View.OnClickListener() {
 
                     @Override
                     public void onClick(View view) {
-                        mSwitcher.setCurrentText("Test");
-                        t= System.currentTimeMillis();
-                        qA();
+                        Thread thread = new Thread(new CodeRunner(brk,b1,b2,b3,b4,mSwitcher,t));
+                        thread.start();
+                        mSwitcher.setCurrentText("tester");
+
+                        try {
+                            Thread.sleep(1000);                 //1000 milliseconds is one second.
+                        } catch(InterruptedException ex) {
+                            Thread.currentThread().interrupt();
+                        }
+                        try {
+                            thread.join();
+                            //boolean b=thread.getVal();
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+
+                        //mSwitcher.setCurrentText("Test");
+                        //t= System.currentTimeMillis();
+                        //qA();
                     }
                 })
 
 
         );
-
-    }
-    private boolean h=false;
-    public void qA(){
-        
-        while(System.currentTimeMillis()<t+10000){
-            Button brk = (Button) findViewById(R.id.RB);
-            brk.setOnClickListener((new View.OnClickListener() {
-
-                        @Override
-                        public void onClick(View view) {
-                           return;
-                        }
-                    })
-
-            );
-            Button b1 = (Button) findViewById(R.id.b1);
-            b1.setOnClickListener((new View.OnClickListener() {
-
-                        @Override
-                        public void onClick(View view) {
-                            h=true;
-                        }
-                    })
-            );
-            Button b2 = (Button) findViewById(R.id.b2);
-            b2.setOnClickListener((new View.OnClickListener() {
-
-                        @Override
-                        public void onClick(View view) {
-                            h=true;
-                        }
-                    })
-            );
-            Button b3 = (Button) findViewById(R.id.b3);
-            b3.setOnClickListener((new View.OnClickListener() {
-
-                        @Override
-                        public void onClick(View view) {
-                            h=true;
-                        }
-                    })
-            );
-            Button b4 = (Button) findViewById(R.id.b4);
-            b4.setOnClickListener((new View.OnClickListener() {
-
-                        @Override
-                        public void onClick(View view) {
-                            h=true;
-                        }
-                    })
-            );
-
-
+        /*
         }
+         */
+    }
 
-        if(!h)
-        mSwitcher.setCurrentText("You Failed");
+
+    public void qA(){
+
+        //System.currentTimeMillis()<t+10000
+
+
+
+
+
+
     }
 
 
