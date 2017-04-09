@@ -1,5 +1,6 @@
 package com.example.werprojects.apptstrmk;
 
+import com.firebase.client.Firebase;
 import android.os.CountDownTimer;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
@@ -17,10 +18,17 @@ import android.widget.TextSwitcher;
 import android.widget.TextView;
 import android.widget.ViewSwitcher;
 
+
 public class TstAct extends AppCompatActivity {
 
-
-
+    private String question;
+    private int ans;
+    private String ch1;
+    private String ch2;
+    private String ch3;
+    private String ch4;
+    private int slc;
+    private Firebase m =
     private TextSwitcher mSwitcher;
     private Button brk;
     private Button b1;
@@ -34,6 +42,7 @@ public class TstAct extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tst);
+        gt();
 
         t=System.currentTimeMillis();
         mSwitcher=(TextSwitcher) findViewById(R.id.switcher);
@@ -42,14 +51,20 @@ public class TstAct extends AppCompatActivity {
         b2 = (Button) findViewById(R.id.b2);
         b3= (Button) findViewById(R.id.b3);
         b4= (Button) findViewById(R.id.b4);
+
+        b1.setText(ch1);
+        b2.setText(ch2);
+        b3.setText(ch3);
+        b4.setText(ch4);
+
         mSwitcher.setFactory(mFactory);
-        mSwitcher.setCurrentText("Test");
+        mSwitcher.setCurrentText(question);
 
         b1.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if(System.currentTimeMillis()<t+10000){
-                    cc=true;
+                    slc=1;
                 }
             }
         }));
@@ -57,7 +72,7 @@ public class TstAct extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(System.currentTimeMillis()<t+10000){
-                    cc=true;
+                    slc=2;
                 }
             }
         }));
@@ -65,7 +80,7 @@ public class TstAct extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(System.currentTimeMillis()<t+10000){
-                    cc=true;
+                    slc=3;
                 }
             }
         }));
@@ -73,7 +88,7 @@ public class TstAct extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(System.currentTimeMillis()<t+10000){
-                    cc=true;
+                    slc=4;
                 }
             }
         }));
@@ -84,11 +99,20 @@ public class TstAct extends AppCompatActivity {
             }
 
             public void onFinish() {
-                if(cc){
+                if(slc==ans){
                     mSwitcher.setCurrentText("Winner");
                 }else{mSwitcher.setCurrentText("Fail");}
             }
         }.start();
+    }
+    private void gt(){
+        Firebase.setAndroidContext(This);
+        ans=1;
+        ch1="A";
+        ch2="b";
+        ch3="c";
+        ch4="d";
+        question="A";
     }
 
     private ViewSwitcher.ViewFactory mFactory = new ViewSwitcher.ViewFactory() {
