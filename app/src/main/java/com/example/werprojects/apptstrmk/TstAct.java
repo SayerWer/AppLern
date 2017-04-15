@@ -19,6 +19,13 @@ import android.widget.TextView;
 import android.widget.ViewSwitcher;
 
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+
 public class TstAct extends AppCompatActivity {
 
     private String question;
@@ -28,7 +35,7 @@ public class TstAct extends AppCompatActivity {
     private String ch3;
     private String ch4;
     private int slc;
-    private Firebase m =
+   // private Firebase m =
     private TextSwitcher mSwitcher;
     private Button brk;
     private Button b1;
@@ -38,11 +45,30 @@ public class TstAct extends AppCompatActivity {
     private long t;
     private boolean cc=false;
 
+    DatabaseReference mroot = FirebaseDatabase.getInstance().getReferenceFromUrl("https://werbase-8fe86.firebaseio.com/");
+    //DatabaseReference ser =mroot.child("Question");
+    private String tester="";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tst);
         gt();
+        FirebaseDatabase.getSdkVersion();
+        /*
+        ser.addValueEventListener((new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                tester=(String)dataSnapshot.getValue();
+                mSwitcher.setCurrentText(tester);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        }));
+            */
 
         t=System.currentTimeMillis();
         mSwitcher=(TextSwitcher) findViewById(R.id.switcher);
@@ -51,7 +77,7 @@ public class TstAct extends AppCompatActivity {
         b2 = (Button) findViewById(R.id.b2);
         b3= (Button) findViewById(R.id.b3);
         b4= (Button) findViewById(R.id.b4);
-
+        //mSwitcher.setCurrentText(tester);
         b1.setText(ch1);
         b2.setText(ch2);
         b3.setText(ch3);
@@ -59,7 +85,7 @@ public class TstAct extends AppCompatActivity {
 
         mSwitcher.setFactory(mFactory);
         mSwitcher.setCurrentText(question);
-
+        //mSwitcher.setCurrentText(tester);
         b1.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -101,18 +127,25 @@ public class TstAct extends AppCompatActivity {
             public void onFinish() {
                 if(slc==ans){
                     mSwitcher.setCurrentText("Winner");
-                }else{mSwitcher.setCurrentText("Fail");}
+                    //mSwitcher.setCurrentText(tester);
+                }else{mSwitcher.setCurrentText("Fail"); mSwitcher.setCurrentText(tester);}
             }
         }.start();
+       // mSwitcher.setCurrentText(tester);
     }
+
+
+
     private void gt(){
-        Firebase.setAndroidContext(This);
+       // Firebase.setAndroidContext(This);
         ans=1;
         ch1="A";
         ch2="b";
         ch3="c";
         ch4="d";
         question="A";
+
+
     }
 
     private ViewSwitcher.ViewFactory mFactory = new ViewSwitcher.ViewFactory() {

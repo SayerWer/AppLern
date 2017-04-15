@@ -1,0 +1,4 @@
+#Mon Apr 10 14:26:35 CDT 2017
+base.0=C\:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
+renamed.0=classes.dex
+file.0=C\:\\Users\\sawye\\Documents\\TestProjects\\AndroidTests\\AppTstRmk\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex

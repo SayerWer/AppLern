@@ -2,60 +2,211 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\sawye\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.1.1\3af19f153122737b372622fa6c81dd11a1c6b999\support-annotations-24.1.1.jar"
+        is-multidex="true"
+        jar="C:\Users\sawye\.android\build-cache\51c8cdd6cab82f643a55f02caa7a8baac6afb302\output\jars\classes.jar"
         jumboMode="true"
-        revision="24.0.1"
-        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
-        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_24967f55f7491fe173689978573ff21ea4bee087\classes.dex" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ff0674ab7a1112032a34eddda825716af86d9328\classes.dex" />
     </item>
     <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.android\build-cache\57e180b69a0ceeeaea9d5ba03cebf6ca1fe314b9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_acad20353d4f081e21de0a4733f45fdb38750600\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_14bdbc087bea1d47e15ea892be1841e38e70eff2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_c01c8b23e3c1c16fe668c86becbcaca3a0efcc69\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.11\d37cb67277928cf59344b4196af8d9cee1f1a27c\tubesock-0.0.11.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.11_574d00fc3a1faa0012a56e1b48c22ec88ff0adcc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_8b6a93316274bea43a94911b5860430b2927516e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.android\build-cache\cf966e375f2a879374141a0071d37023458c1414\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0d3a4078d3b634096fc20704c168cfe131b8e0c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
-        revision="24.0.1"
-        sha1="94736a1d24873d9112dd9f8cbfc122e0bf4959ca">
-        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4e6b19d61a8825a7ccce30e9d621eba552e1f861\classes.dex" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4e6b19d61a8825a7ccce30e9d621eba552e1f861\classes.dex" />
     </item>
     <item
-        jar="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        is-multidex="true"
+        jar="C:\Users\sawye\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.3.1\4d53b7d6983247af02b8fe7e4228fff555a5e828\firebase-client-jvm-2.3.1.jar"
         jumboMode="true"
-        revision="24.0.1"
-        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
-        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_be0664ed0eb20eae2082f4be1d93111fb0a50c68\classes.dex" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="4d53b7d6983247af02b8fe7e4228fff555a5e828">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.3.1_96e06563e77a108b545cfc20c8233f7e5ad3362b\classes.dex" />
     </item>
     <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.android\build-cache\86706bb16ed8aa19391e2f5749a310bad3694226\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_efff688a7ff599a4a25a96bdec54ac61e7a011a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
-        revision="24.0.1"
-        sha1="4cc8a674030d2a6f02dd90aeba71811e2b268689">
-        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9b47143b68d6fdec6f1df7776f0840c9c03c98fe\classes.dex" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="889b42cf45c42bce35eaa680974b1312a04bf75f">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9b47143b68d6fdec6f1df7776f0840c9c03c98fe\classes.dex" />
     </item>
     <item
-        jar="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\sawye\.android\build-cache\2c1acce8a2a70ec37f2e2142bdab4d0906abf905\output\jars\classes.jar"
         jumboMode="true"
-        revision="24.0.1"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_99258a188cff0f902983e6162e62088098e30847\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.android\build-cache\d46bd9c327e285798202860606e153c36d2ed9fb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fdab2b26608143e954ec5e2649e79b7c29c67fc3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.android\build-cache\773633c26a8b880819b54a2a62e3519ab59629ed\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1f07fba870aa6638bca69b3f6d3ae7695b73abc3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.android\build-cache\b6f3bcaa3e62ee0f416043f1aa4850731abd3082\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="f62e763609f65e47dc6c498760a4accf02776788">
-        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_61b7517743ffe851e4d62a6fe471d658321d9af7\classes.dex" />
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f5ca21f3b301f029d060cd46d1c0c8c0879c55dd\classes.dex" />
     </item>
     <item
-        jar="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\sawye\.android\build-cache\c6d3432260301de612bfb9095824036262c1389c\output\jars\classes.jar"
         jumboMode="true"
-        revision="24.0.1"
+        optimize="true"
+        revision="25.0.0"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_55281b015111540aa16758608cc2103a27e39cea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.android\build-cache\cf966e375f2a879374141a0071d37023458c1414\output\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_c2ed822e61f1cacfd312d1cf8291dc9ce1ebfce8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sawye\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_b60722379dff6f16cc96a5d0b2d8fbe980b6b1a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.android\build-cache\81310847e722197366a608b5a3dfdc0d706f5e80\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fc298e8f47a0521ec3c9c6f1f8b27c4631ee45b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.3.1\be29b24233711c419ce935aa0a1b12ebc49d1c9a\firebase-client-android-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="be29b24233711c419ce935aa0a1b12ebc49d1c9a">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.3.1_7749af4b85ed9f48b34be90ce3b482a7f52ec8f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.android\build-cache\361b2e932cebbf2e1620918e416ecf4b76d02139\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_42f6d57857b75bf6f0162c7c2db0b3246e29036c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sawye\.android\build-cache\c997683acf4fb3352bbd0469a63f2001c5cdd46a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="1256c10604bb098490eab070d76754ac5ceab35c">
-        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_a708e2b2021ac02ac18417466338510fd0c2b5ba\classes.dex" />
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_85bf64bb68e610dfc3be6c68f7f2a206d3462afb\classes.dex" />
     </item>
     <item
-        jar="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\sawye\.android\build-cache\e176dfeb350835d15e397df50cd8f307067422c5\output\jars\classes.jar"
         jumboMode="true"
-        revision="24.0.1"
-        sha1="6d7d803871e3203465f71a163e7af104f807b446">
-        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_7c5ddbd9a941d0b6b2ed53036466f09b58003a97\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
-        jumboMode="true"
-        revision="24.0.1"
+        optimize="true"
+        revision="25.0.0"
         sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
-        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_ded0d304c9eb783597b43106f11ffc0d2d607c80\classes.dex" />
+        <dex dex="C:\Users\sawye\Documents\TestProjects\AndroidTests\AppTstRmk\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d83e487d8d87384ca04d5aec5750f48427a4efe3\classes.dex" />
     </item>
 
 </items>
